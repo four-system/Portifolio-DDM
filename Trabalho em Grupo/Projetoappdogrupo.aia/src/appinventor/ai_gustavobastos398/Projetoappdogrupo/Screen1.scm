@@ -1,4 +1,0 @@
-#|
-$JSON
-{"authURL":["ai2a.appinventor.mit.edu"],"YaVersion":"233","Source":"Form","Properties":{"$Name":"Screen1","$Type":"Form","$Version":"31","ActionBar":"True","AppName":"Projetoappdogrupo","Title":"Screen1","Uuid":"0","$Components":[{"$Name":"Legenda1","$Type":"Label","$Version":"5","FontSize":"22","Width":"-1100","Text":"Calculador de gastos","TextAlignment":"1","Uuid":"1486313100"},{"$Name":"Imagem1","$Type":"Image","$Version":"6","Clickable":"True","Picture":"download(1).jfif","Uuid":"-2082343243"},{"$Name":"Legenda2","$Type":"Label","$Version":"5","FontSize":"22","Text":"Comida","Uuid":"-1514499658"}]}}
-|#

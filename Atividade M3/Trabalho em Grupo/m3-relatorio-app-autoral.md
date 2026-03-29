@@ -45,4 +45,8 @@ Cada integrante teve um papel importante no desenvolvimento do aplicativo:
 - `Gustavo: fez o refinamento geral do aplicativo, cuidando do design, das configurações e da maior parte da programação.`
 - `Bianca: finalizou a programação do modo escuro e também contribuiu melhorando o design do aplicativo.`
 
+## Prints do App
+
+
+
 

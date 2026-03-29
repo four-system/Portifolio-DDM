@@ -18,6 +18,7 @@
 - `Davi Alves Bressan`
 - `Gustavo Bastos da Silva`
 - `Kevin Iamake Nozaki`
+
 # 📱 Projeto
 
 ## Título

@@ -47,6 +47,25 @@ Cada integrante teve um papel importante no desenvolvimento do aplicativo:
 
 ## Prints do App
 
+# Prints das telas de Design
+
+## Design da Primeira Versão do App
+![Design da Primeira Versão do App](imagens/design1)
+![Design da Primeira Versão do App](imagens/design1-2)
+
+## Design da Segunda Versão do App
+![Design da Segunda Versão do App](imagens/design2.png)
+![Design da Segunda Versão do App](imagens/design2-2.png)
+
+## Design da Terceira Versão do App (final)
+![Design da Terceira Versão do App](imagens/design3.png)
+![Design da Terceira Versão do App](imagens/design3-2.png)
+![Design da Terceira Versão do App](imagens/design3-3.png)
+
+
+---
+
+
 
 
 

@@ -69,22 +69,22 @@ Cada integrante teve um papel importante no desenvolvimento do aplicativo:
 Bloco da Tela de Abertura
 ![Tela de Abertura](imagens/abertura.png)
 
-Bloco dos botões de Salário e Gastos
+## Bloco dos botões de Salário e Gastos
 ![Botões de Adicionar](imagens/definirvalores.png)
 
-Limpar Valores
+## Limpar Valores
 ![Botões de Limpar](imagens/limparvalores.png)
 
-Ler qual Moeda Usar
+## Ler qual Moeda Usar
 ![Botões de Adicionar](imagens/moeda.png)
 
-Bloco dos botões de Salário e Gastos
+## Bloco dos botões de Salário e Gastos
 ![Botões de Adicionar](imagens/definirvalores.png)
 
-Bloco do Botão de Configuração
+## Bloco do Botão de Configuração
 ![Botões de Adicionar](imagens/botaoconfiguracoes.png)
 
-Bloco das Caixas Seletoras de Moeda
+## Bloco das Caixas Seletoras de Moeda
 ![Botões de Adicionar](imagens/botaomoeda.png)
 
 

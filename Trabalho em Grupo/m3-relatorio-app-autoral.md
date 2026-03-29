@@ -14,7 +14,7 @@
 ---
 
 ## Autores
-- `Bianca`
+- `Bianca Rocha do Nascimento`
 - `Davi Alves Bressan`
 - `Gustavo Bastos da Silva`
 - `Kevin Iamake Nozaki`
@@ -28,4 +28,6 @@ O objetivo do aplicativo é auxiliar o usuário no controle de seus gastos pesso
 ---
 
 ## Funcionalidade do Aplicativo
-O aplicativo apresenta funcionalidades voltadas para o controle financeiro de forma simples e prática. A principal delas é o cálculo automático entre o salário e os gastos inseridos pelo usuário, permitindo visualizar o valor restante de forma rápida.
+O aplicativo apresenta funcionalidades voltadas para o controle financeiro de forma simples e prática. A principal delas é o cálculo automático entre o salário e os gastos inseridos pelo usuário, permitindo visualizar o valor restante de forma rápida. Além disso, o aplicativo conta com configurações personalizáveis, como a seleção de moeda, possibilitando adaptar os valores conforme a preferência do usuário.
+
+Também foi implementado o modo escuro, que melhora a visualização em ambientes com pouca luz e proporciona maior conforto durante o uso.

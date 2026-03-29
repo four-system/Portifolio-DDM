@@ -66,7 +66,7 @@ Cada integrante teve um papel importante no desenvolvimento do aplicativo:
 ---
 
 ## Prints dos Blocos do App
-Bloco da Tela de Abertura
+## Bloco da Tela de Abertura
 ![Tela de Abertura](imagens/abertura.png)
 
 ## Bloco dos botões de Salário e Gastos
@@ -76,16 +76,31 @@ Bloco da Tela de Abertura
 ![Botões de Limpar](imagens/limparvalores.png)
 
 ## Ler qual Moeda Usar
-![Botões de Adicionar](imagens/moeda.png)
-
-## Bloco dos botões de Salário e Gastos
-![Botões de Adicionar](imagens/definirvalores.png)
+![Botões de Selecionar Moeda](imagens/moeda.png)
 
 ## Bloco do Botão de Configuração
-![Botões de Adicionar](imagens/botaoconfiguracoes.png)
+![Botões de Configurações](imagens/botaoconfiguracoes.png)
 
 ## Bloco das Caixas Seletoras de Moeda
-![Botões de Adicionar](imagens/botaomoeda.png)
+![Botões de Selecionar Moeda](imagens/botaomoeda.png)
+
+## Bloco de Definir Tema nas Caixas Seletoras
+![Botões de Definir Tema](imagens/botaotema.png)
+
+## Botão de Voltar
+![Botão de Voltar](imagens/botaovoltar.png)
+
+## Bloco de Definir o Tema na Tela de Configurações
+![tema configuração](imagens/chamartemaconfig.png)
+
+## Bloco de Função para Definir o Tema 
+![função tema](imagens/funcaotema.png)
+
+## Bloco de Definir o Tema na Tela Principal
+![Tema Tela Principal](imagens/tematela1.png)
+
+
+
 
 
 

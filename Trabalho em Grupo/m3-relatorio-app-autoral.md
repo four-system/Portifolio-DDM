@@ -1,22 +1,27 @@
-Instituição
----
-ETEC Vasco Antônio Venchiarutti
----
-Curso
----
-Informática para Internet
----
-Turma
----
-2°D
----
-Autores
-Kevin
-Davi
-Gustavo
-Bianca
----
-📱 Projeto
-Título
+## Instituição 
+`ETEC Vasco Antônio Venchiarutti`
 
-Tabela Econômica
+---
+
+## Curso
+`Informática para Internet`
+
+---
+
+## Turma
+`2°D`
+
+---
+
+## Autores
+- `Bianca`
+- `Davi Alves Bressan`
+- `Gustavo Bastos da Silva`
+- `Kevin Iamake Nozaki`
+
+---
+
+# 📱 Projeto
+
+## Título
+Tabela Economica

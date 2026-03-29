@@ -35,6 +35,14 @@ O aplicativo apresenta funcionalidades voltadas para o controle financeiro de fo
 Durante o desenvolvimento, foram utilizados vários conceitos aprendidos na apostila. Um deles foi a troca de telas, que permite navegar entre as diferentes partes do aplicativo. Também foi utilizado o uso de botões para realizar ações e modificar conteúdos na tela. Um deles foi a troca de telas, que permite navegar entre as diferentes partes do aplicativo. Também foi utilizado o uso de botões para realizar ações e modificar conteúdos na tela. Outro conceito importante foi o uso de componentes de entrada, permitindo que o usuário interaja com o aplicativo. Além disso, foi aplicado o conceito de personalização visual, como no caso do modo escuro, que melhora a experiência do usuário.
 
 ## Conceitos aprendidos na Apostila
-Durante o desenvolvimento, foram utilizados vários conceitos aprendidos na apostila. Um deles foi a troca de telas, que permite navegar entre as diferentes partes do aplicativo. Também foi utilizado o uso de botões para realizar ações e modificar conteúdos na tela. Outro conceito importante foi o uso de componentes de entrada, permitindo que o usuário interaja com o aplicativo.
+Durante o desenvolvimento, foram utilizados vários conceitos aprendidos na apostila. Um deles foi a troca de telas, que permite navegar entre as diferentes partes do aplicativo. Também foi utilizado o uso de botões para realizar ações e modificar conteúdos na tela. Outro conceito importante foi o uso de componentes de entrada, permitindo que o usuário interaja com o aplicativo. Além disso, foi aplicado o conceito de personalização visual, como no caso do modo escuro, que melhora a experiência do usuário.
+
+## Participação de cada integrante
+Cada integrante teve um papel importante no desenvolvimento do aplicativo:
+
+-`Kevin: foi responsável por criar a base dos cálculos e também ajudou na construção da primeira tela do aplicativo.`
+-`Davi: `
+-`Gustavo: fez o refinamento geral do aplicativo, cuidando do design, das configurações e da maior parte da programação.`
+-`Bianca: finalizou a programação do modo escuro e também contribuiu melhorando o design do aplicativo.`
 
 

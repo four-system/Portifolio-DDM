@@ -18,6 +18,7 @@
 - `Davi Alves Bressan`
 - `Gustavo Bastos da Silva`
 - `Kevin Iamake Nozaki`
+# 📱 Projeto
 
 ## Título
 Calculadora Econômica
@@ -27,5 +28,4 @@ O objetivo do aplicativo é auxiliar o usuário no controle de seus gastos pesso
 ---
 
 ## Funcionalidade do Aplicativo
-O objetivo do aplicativo é auxiliar o usuário no controle de seus gastos pessoais. Por meio dele, é possível registrar despesas e inserir o valor do salário, permitindo visualizar o valor restante disponível.
-# 📱 Projeto
+O aplicativo apresenta funcionalidades voltadas para o controle financeiro de forma simples e prática. A principal delas é o cálculo automático entre o salário e os gastos inseridos pelo usuário, permitindo visualizar o valor restante de forma rápida.

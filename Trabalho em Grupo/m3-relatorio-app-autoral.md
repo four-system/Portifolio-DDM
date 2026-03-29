@@ -28,6 +28,10 @@ O objetivo do aplicativo é auxiliar o usuário no controle de seus gastos pesso
 ---
 
 ## Funcionalidade do Aplicativo
-O aplicativo apresenta funcionalidades voltadas para o controle financeiro de forma simples e prática. A principal delas é o cálculo automático entre o salário e os gastos inseridos pelo usuário, permitindo visualizar o valor restante de forma rápida. Além disso, o aplicativo conta com configurações personalizáveis, como a seleção de moeda, possibilitando adaptar os valores conforme a preferência do usuário.
+O aplicativo apresenta funcionalidades voltadas para o controle financeiro de forma simples e prática. A principal delas é o cálculo automático entre o salário e os gastos inseridos pelo usuário, permitindo visualizar o valor restante de forma rápida. Além disso, o aplicativo conta com configurações personalizáveis, como a seleção de moeda, possibilitando adaptar os valores conforme a preferência do usuário. Também foi implementado o modo escuro, que melhora a visualização em ambientes com pouca luz e proporciona maior conforto durante o uso.
 
-Também foi implementado o modo escuro, que melhora a visualização em ambientes com pouca luz e proporciona maior conforto durante o uso.
+## Conceitos aprendidos na Apostila
+
+Durante o desenvolvimento, foram utilizados vários conceitos aprendidos na apostila. Um deles foi a troca de telas, que permite navegar entre as diferentes partes do aplicativo. Também foi utilizado o uso de botões para realizar ações e modificar conteúdos na tela.
+
+

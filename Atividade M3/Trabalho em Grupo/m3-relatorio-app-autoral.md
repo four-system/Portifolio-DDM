@@ -41,7 +41,7 @@ Durante o desenvolvimento, foram utilizados vários conceitos aprendidos na apos
 Cada integrante teve um papel importante no desenvolvimento do aplicativo:
 
 - `Kevin: foi responsável por criar a base dos cálculos e também ajudou na construção da primeira tela do aplicativo.`
-- `Davi: `
+- `Davi: `Davi foi responsável pelo segundo design do aplicativo.`
 - `Gustavo: fez o refinamento geral do aplicativo, cuidando do design, das configurações e da maior parte da programação.`
 - `Bianca: finalizou a programação do modo escuro e também contribuiu melhorando o design do aplicativo.`
 

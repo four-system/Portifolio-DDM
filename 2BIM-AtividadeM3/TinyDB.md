@@ -104,3 +104,18 @@ flowchart LR
     E --> F["App usa GetValue"]
     F --> G["Dado salvo aparece na tela"]
 ```
+
+## 4. Componentes e blocos relacionados
+
+Os principais blocos do TinyDB sao simples, mas cada um tem um uso especifico.
+
+| Bloco | Funcao | Quando usar |
+| --- | --- | --- |
+| `StoreValue(tag, valueToStore)` | Salva um valor em uma tag | Quando o app precisa gravar ou atualizar uma informacao |
+| `GetValue(tag, valueIfTagNotThere)` | Recupera o valor de uma tag | Quando o app precisa carregar uma informacao salva |
+| `ClearTag(tag)` | Apaga uma tag especifica | Quando so uma informacao deve ser removida |
+| `ClearAll()` | Apaga todos os dados do TinyDB | Quando o usuario quer limpar tudo ou reiniciar o app |
+| `GetTags()` | Retorna a lista de tags salvas | Quando o app precisa saber quais registros existem |
+| `GetEntries()` | Retorna os dados em formato de dicionario | Quando e necessario recuperar o conjunto de informacoes salvas |
+
+Esses blocos aparecem na documentacao oficial do componente TinyDB, dentro da categoria Storage do App Inventor (MASSACHUSETTS INSTITUTE OF TECHNOLOGY, 2024a).

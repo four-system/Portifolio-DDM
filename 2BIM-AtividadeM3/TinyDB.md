@@ -158,6 +158,14 @@ Nesses casos, o TinyDB e uma boa escolha porque o aplicativo consegue salvar e r
 
 Algumas boas praticas ajudam a deixar o aplicativo mais organizado e evitam perda ou confusao de dados.
 
+### Evitar apagar tudo sem necessidade
+
+O bloco `ClearAll` deve ser usado com cuidado. Em muitos casos, `ClearTag` e mais seguro, porque apaga apenas uma informacao especifica. Se o aplicativo tiver um botao para limpar todos os dados, e recomendavel pedir confirmacao ao usuario.
+
+### Testar o app depois de fechar e abrir
+
+Como o objetivo do TinyDB e manter dados salvos, um teste importante e fechar o aplicativo e abrir novamente para verificar se as informacoes continuam corretas.
+
 ## 8. Conclusao
 
 O TinyDB e importante no desenvolvimento de aplicativos porque permite guardar informacoes no proprio dispositivo de forma simples. Sem ele, muitos dados seriam perdidos sempre que o aplicativo fosse fechado, como nome de usuario, listas, pontuacoes e configuracoes.

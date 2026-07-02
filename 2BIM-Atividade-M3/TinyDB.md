@@ -67,3 +67,15 @@ Exemplo: em uma tela de cadastro simples, o usuario digita seu nome em uma caixa
 - valor: texto digitado pelo usuario.
 
 Assim, na proxima vez que o app abrir, o nome ainda estara salvo.
+
+### Leitura de informacoes
+
+Para ler uma informacao, usa-se o bloco `GetValue`. O aplicativo informa a tag desejada e tambem um valor padrao, caso aquela tag ainda nao exista.
+
+Exemplo:
+
+- buscar a tag `nomeUsuario`;
+- se ela existir, mostrar o nome salvo;
+- se nao existir, mostrar uma mensagem como "Usuario nao cadastrado".
+
+Esse valor padrao e importante porque evita erro quando o app tenta buscar uma informacao que ainda nao foi cadastrada.

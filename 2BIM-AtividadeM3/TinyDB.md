@@ -158,6 +158,35 @@ Nesses casos, o TinyDB e uma boa escolha porque o aplicativo consegue salvar e r
 
 Algumas boas praticas ajudam a deixar o aplicativo mais organizado e evitam perda ou confusao de dados.
 
+### Escolher bons nomes para as tags
+
+As tags devem ter nomes claros. Em vez de usar `x1` ou `dado`, e melhor usar nomes como:
+
+- `nomeUsuario`;
+- `listaTarefas`;
+- `pontuacaoMaxima`;
+- `configuracaoTema`.
+
+Isso facilita a manutencao do app, principalmente quando o projeto cresce.
+
+### Organizar os dados
+
+Quando houver varios dados relacionados, pode ser melhor guardar uma lista ou dicionario em uma unica tag. Por exemplo, em vez de criar varias tags soltas para itens de compra, o app pode guardar uma lista na tag `listaCompras`.
+
+### Sempre pensar no valor padrao
+
+Ao usar `GetValue`, o app deve informar um valor padrao. Isso evita problemas quando a tag ainda nao existe. Se o app busca uma lista, o valor padrao pode ser uma lista vazia. Se busca um nome, pode ser um texto vazio.
+
+### Atualizar com cuidado
+
+Antes de atualizar listas, o ideal e seguir uma ordem:
+
+1. buscar a lista salva com `GetValue`;
+2. alterar a lista no aplicativo;
+3. salvar novamente com `StoreValue`.
+
+Assim o app nao perde informacoes antigas por acidente.
+
 ### Evitar apagar tudo sem necessidade
 
 O bloco `ClearAll` deve ser usado com cuidado. Em muitos casos, `ClearTag` e mais seguro, porque apaga apenas uma informacao especifica. Se o aplicativo tiver um botao para limpar todos os dados, e recomendavel pedir confirmacao ao usuario.

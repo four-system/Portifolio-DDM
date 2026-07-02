@@ -119,3 +119,17 @@ Os principais blocos do TinyDB sao simples, mas cada um tem um uso especifico.
 | `GetEntries()` | Retorna os dados em formato de dicionario | Quando e necessario recuperar o conjunto de informacoes salvas |
 
 Esses blocos aparecem na documentacao oficial do componente TinyDB, dentro da categoria Storage do App Inventor (MASSACHUSETTS INSTITUTE OF TECHNOLOGY, 2024a).
+
+## 5. Aplicacoes praticas
+
+O TinyDB e adequado para aplicativos que precisam lembrar informacoes simples no proprio aparelho. Ele combina bem com projetos em que os dados pertencem ao usuario daquele celular e nao precisam ser compartilhados com outras pessoas.
+
+Algumas possibilidades:
+
+- **Lista de tarefas:** salvar tarefas pendentes e concluidas.
+- **Agenda de contatos simples:** guardar nome, telefone e observacoes.
+- **Cadastro de clientes:** armazenar uma lista pequena de clientes atendidos pelo usuario.
+- **Lista de compras:** salvar itens que o usuario adicionou.
+- **Aplicativo de anotacoes:** guardar textos curtos.
+- **Controle financeiro pessoal:** salvar gastos inseridos pelo usuario.
+- **Jogos:** guardar recorde, fase atual ou configuracoes.

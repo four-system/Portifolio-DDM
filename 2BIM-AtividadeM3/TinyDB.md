@@ -77,3 +77,30 @@ Exemplo:
 - buscar a tag `nomeUsuario`;
 - se ela existir, mostrar o nome salvo;
 - se nao existir, mostrar uma mensagem como "Usuario nao cadastrado".
+
+Esse valor padrao e importante porque evita erro quando o app tenta buscar uma informacao que ainda nao foi cadastrada.
+
+### Atualizacao de dados
+
+Atualizar um dado no TinyDB e parecido com salvar. Basta usar `StoreValue` novamente com a mesma tag. O novo valor substitui o anterior.
+
+Exemplo: se a tag `pontuacaoMaxima` tinha o valor `1500` e o jogador fez `1800`, o app grava `1800` na mesma tag. A partir desse momento, o valor antigo deixa de ser usado.
+
+### Remocao de dados
+
+Para remover informacoes, o TinyDB oferece blocos como `ClearTag` e `ClearAll`.
+
+- `ClearTag` remove apenas uma tag especifica.
+- `ClearAll` apaga todo o armazenamento do TinyDB daquele app.
+
+Por exemplo, em um app com login simples, o botao "Sair" poderia apagar a tag `usuarioLogado`. Ja um botao "Limpar tudo" em uma lista de tarefas poderia usar `ClearAll`, mas isso precisa ser feito com cuidado, porque apaga todos os dados salvos.
+
+```mermaid
+flowchart LR
+    A["Usuario informa um dado"] --> B["App usa StoreValue"]
+    B --> C["TinyDB salva tag + valor"]
+    C --> D["App e fechado"]
+    D --> E["App abre novamente"]
+    E --> F["App usa GetValue"]
+    F --> G["Dado salvo aparece na tela"]
+```

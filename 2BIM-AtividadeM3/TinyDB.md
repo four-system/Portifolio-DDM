@@ -157,3 +157,9 @@ Nesses casos, o TinyDB e uma boa escolha porque o aplicativo consegue salvar e r
 ## 7. Boas praticas no uso do TinyDB
 
 Algumas boas praticas ajudam a deixar o aplicativo mais organizado e evitam perda ou confusao de dados.
+
+## 8. Conclusao
+
+O TinyDB e importante no desenvolvimento de aplicativos porque permite guardar informacoes no proprio dispositivo de forma simples. Sem ele, muitos dados seriam perdidos sempre que o aplicativo fosse fechado, como nome de usuario, listas, pontuacoes e configuracoes.
+
+Ele pode ser usado em varios tipos de aplicativos, principalmente aqueles que precisam salvar dados locais e nao dependem de internet. Para projetos de iniciantes no MIT App Inventor, o TinyDB e uma boa forma de entender a ideia de banco de dados, chaves, valores, leitura, gravacao, atualizacao e exclusao.

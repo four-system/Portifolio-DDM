@@ -153,3 +153,7 @@ Assim, o TinyDB deve ser usado quando os dados sao locais, como uma lista de tar
 Nesses casos, o TinyDB e uma boa escolha porque o aplicativo consegue salvar e recuperar dados rapidamente, sem depender de servidor externo. Para um trabalho escolar, por exemplo, um app de lista de compras com TinyDB ja mostra bem a ideia de banco local: o usuario adiciona um item, fecha o app e, quando abre de novo, a lista continua la.
 - **Controle financeiro pessoal:** salvar gastos inseridos pelo usuario.
 - **Jogos:** guardar recorde, fase atual ou configuracoes.
+
+## 7. Boas praticas no uso do TinyDB
+
+Algumas boas praticas ajudam a deixar o aplicativo mais organizado e evitam perda ou confusao de dados.

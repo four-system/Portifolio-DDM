@@ -134,6 +134,22 @@ Algumas possibilidades:
 - **Controle financeiro pessoal:** salvar gastos inseridos pelo usuario.
 - **Jogos:** guardar recorde, fase atual ou configuracoes.
 
+## 6. TinyDB x TinyWebDB
+
+O TinyDB e o TinyWebDB tem nomes parecidos, mas funcionam de formas diferentes.
+
+| Comparacao | TinyDB | TinyWebDB |
+| --- | --- | --- |
+| Onde os dados ficam | No proprio dispositivo | Em um servico web |
+| Precisa de internet | Nao | Sim |
+| Compartilha dados entre usuarios | Nao, normalmente fica no aparelho | Pode compartilhar, pois os dados ficam online |
+| Dificuldade | Mais simples | Mais complexo |
+| Melhor uso | Dados locais, configuracoes, listas pessoais | Dados que precisam ser acessados por mais de um aparelho |
+| Risco principal | Perda dos dados se o app for removido | Depender de servidor e internet |
+
+A documentacao oficial informa que o TinyWebDB se comunica com um servico web para armazenar e recuperar informacoes. A propria pagina do MIT tambem explica que o servico padrao e limitado e funciona mais como demonstracao, sendo recomendado criar um servico proprio para projetos mais serios (MASSACHUSETTS INSTITUTE OF TECHNOLOGY, 2024b).
+
+Assim, o TinyDB deve ser usado quando os dados sao locais, como uma lista de tarefas pessoal. O TinyWebDB faz mais sentido quando os dados precisam ficar na web, como em um jogo com ranking compartilhado ou em um app usado por mais de um celular.
 Nesses casos, o TinyDB e uma boa escolha porque o aplicativo consegue salvar e recuperar dados rapidamente, sem depender de servidor externo. Para um trabalho escolar, por exemplo, um app de lista de compras com TinyDB ja mostra bem a ideia de banco local: o usuario adiciona um item, fecha o app e, quando abre de novo, a lista continua la.
 - **Controle financeiro pessoal:** salvar gastos inseridos pelo usuario.
 - **Jogos:** guardar recorde, fase atual ou configuracoes.

@@ -39,3 +39,41 @@ Os dados ficam armazenados localmente no dispositivo do usuario. Assim, o aplica
 - nao e indicado para grandes bancos de dados;
 - se o aplicativo for desinstalado, os dados podem ser perdidos;
 - durante testes no Companion, diferentes projetos podem compartilhar o mesmo TinyDB, por isso e preciso tomar cuidado e limpar dados antigos quando necessario (MASSACHUSETTS INSTITUTE OF TECHNOLOGY, 2024a).
+
+## 3. Funcionamento do TinyDB
+
+O TinyDB trabalha com a ideia de **tag** e **valor**. A tag funciona como uma chave ou nome usado para identificar a informacao. O valor e o dado que fica guardado nessa tag.
+
+Por exemplo:
+
+| Tag | Valor armazenado |
+| --- | --- |
+| `nomeUsuario` | `Ana` |
+| `pontuacaoMaxima` | `1500` |
+| `listaCompras` | `["arroz", "feijao", "leite"]` |
+
+De acordo com a documentacao do MIT App Inventor, cada item armazenado no TinyDB e formado por uma tag e um valor. Para salvar uma informacao, e necessario indicar em qual tag ela sera guardada. Depois, o aplicativo pode buscar o valor usando a mesma tag (MASSACHUSETTS INSTITUTE OF TECHNOLOGY, 2024a).
+
+### Gravacao de informacoes
+
+Para gravar uma informacao, usa-se o bloco `StoreValue`. Ele recebe dois dados:
+
+- a tag, que identifica a informacao;
+- o valor que sera salvo.
+
+Exemplo: em uma tela de cadastro simples, o usuario digita seu nome em uma caixa de texto. Ao clicar no botao "Salvar", o app pode guardar:
+
+- tag: `nomeUsuario`;
+- valor: texto digitado pelo usuario.
+
+Assim, na proxima vez que o app abrir, o nome ainda estara salvo.
+
+### Leitura de informacoes
+
+Para ler uma informacao, usa-se o bloco `GetValue`. O aplicativo informa a tag desejada e tambem um valor padrao, caso aquela tag ainda nao exista.
+
+Exemplo:
+
+- buscar a tag `nomeUsuario`;
+- se ela existir, mostrar o nome salvo;
+- se nao existir, mostrar uma mensagem como "Usuario nao cadastrado".

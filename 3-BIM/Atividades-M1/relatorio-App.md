@@ -14,8 +14,8 @@
 
 ## Autores
 
--Bianca Rocha do Nascimento
--Davi Alves Bressan
--Gustavo Bastos da Silva
--Kevin Iamake Nozaki
+- Bianca Rocha do Nascimento
+- Davi Alves Bressan
+- Gustavo Bastos da Silva
+- Kevin Iamake Nozaki
 

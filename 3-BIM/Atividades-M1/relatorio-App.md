@@ -98,38 +98,6 @@ Durante o desenvolvimento foram utilizados:
 
 ---
 
-## Prints da tela do site
-
-### Página principal
-
-![Página principal](./imagens/pagina-principal.png)
-
-### Lista de tarefas
-
-![Lista de tarefas](./imagens/lista-tarefas.png)
-
-### Design do site
-
-![Design do site](./imagens/design.png)
-
----
-
-## Prints da programação
-
-### Estrutura do projeto
-
-![Estrutura do projeto](./imagens/estrutura.png)
-
-### Lógica das tarefas
-
-![Lógica das tarefas](./imagens/logica.png)
-
-### Armazenamento
-
-![Armazenamento](./imagens/armazenamento.png)
-
----
-
 ## Conclusão
 
 Com o desenvolvimento do site, foi possível colocar em prática conhecimentos de programação e desenvolvimento web aprendidos durante o curso de Informática para Internet.

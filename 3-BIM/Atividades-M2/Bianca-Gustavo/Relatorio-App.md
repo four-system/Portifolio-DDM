@@ -51,11 +51,16 @@ Foi implementada uma mecânica de evento onde surge um **chefão a cada 10 ponto
 
 ## Print do Design
 
-![Design do Pong Master](imagens/int1.png)
+![Design do Pong Master](imagens/pongmaster.png)
 
 ## Print dos Blocos
 
-![Blocos do Pong Master](imagens/blocos1.png)
+![Blocos do Pong Master](imagens/bloco1pongmaster.png)
+![Design do Pong Master](imagens/bloco2pongmaster.png)
+![Design do Pong Master](imagens/bloco3pongmaster.png)
+![Design do Pong Master](imagens/bloco4pongmaster.png)
+![Design do Pong Master](imagens/bloco5pongmaster.png)
+![Design do Pong Master](imagens/bloco6pongmaster.png)
 
 ---
 

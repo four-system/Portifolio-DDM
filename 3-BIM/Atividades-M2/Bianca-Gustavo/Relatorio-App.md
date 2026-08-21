@@ -77,10 +77,11 @@ Foi adicionado um elemento de física e aleatoriedade ao jogo: existe uma **chan
 
 ## Print do Design
 
-![Design do Acelerômetro](imagens/int2.png)
+![Design do Acelerômetro](imagens/acelerometro.png)
 
 ## Print dos Blocos
 
-![Blocos do Acelerômetro](imagens/blocos2.png)
+![Blocos do Acelerômetro](imagens/bloco1acelerometro.png)
+![Blocos2 do Acelerômetro](imagens/bloco2acelerometro.png)
 
 ---

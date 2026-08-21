@@ -85,3 +85,33 @@ Foi adicionado um elemento de física e aleatoriedade ao jogo: existe uma **chan
 ![Blocos2 do Acelerômetro](imagens/bloco2acelerometro.png)
 
 ---
+
+# Projeto 3 – Bilhar
+
+## Objetivo do jogo
+
+O jogo simula uma mesa de sinuca com interação direta dos elementos na tela.
+
+## Modificações realizadas (Bianca)
+
+Foi introduzida uma **bola amarela com sistema de pontuação**. Para conseguir marcar pontos na partida, o jogador precisa ajustar a trajetória e encaçapar a bola amarela no buraco da mesa.
+
+---
+
+## Print do Design
+
+![Design do Bilhar](imagens/int3.png)
+
+## Print dos Blocos
+
+![Blocos do Bilhar](imagens/blocos3.png)
+
+---
+
+# Considerações Finais
+
+O desenvolvimento das alterações nos três jogos permitiu aplicar na prática os conceitos estudados na disciplina de Desenvolvimento para Dispositivos Móveis (DDM), utilizando programação por blocos no MIT App Inventor. As modificações realizadas contribuíram para tornar a jogabilidade mais dinâmica, desafiadora e com mecânicas de pontuação e eventos bem definidas.
+
+---
+
+*Relatório desenvolvido para fins educacionais na disciplina de Desenvolvimento para Dispositivos Móveis (DDM), utilizando o MIT App Inventor.*

@@ -100,11 +100,12 @@ Foi introduzida uma **bola amarela com sistema de pontuação**. Para conseguir 
 
 ## Print do Design
 
-![Design do Bilhar](imagens/int3.png)
+![Design do Bilhar](imagens/bilhar.png)
 
 ## Print dos Blocos
 
-![Blocos do Bilhar](imagens/blocos3.png)
+![Blocos1 do Bilhar](imagens/bloco1bilhar.png)
+![Blocos2 do Bilhar](imagens/bloco2bilhar.png)
 
 ---
 

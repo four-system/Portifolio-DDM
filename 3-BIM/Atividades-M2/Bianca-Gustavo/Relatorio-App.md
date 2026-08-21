@@ -16,3 +16,10 @@
 
 - Gustavo
 - Bianca
+
+---
+
+# Projeto – Alteração dos 3 Jogos
+
+## Objetivo do projeto
+

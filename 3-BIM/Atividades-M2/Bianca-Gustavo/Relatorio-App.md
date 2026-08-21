@@ -59,7 +59,6 @@ Foi implementada uma mecânica de evento onde surge um **chefão a cada 10 ponto
 ![Bloco2 do Pong Master](imagens/bloco2pongmaster.png)
 ![Bloco3 do Pong Master](imagens/bloco3pongmaster.png)
 ![Bloco4 do Pong Master](imagens/bloco4pongmaster.png)
-![Bloco5 do Pong Master](imagens/bloco5pongmaster.png)
 ![Bloco6 do Pong Master](imagens/bloco6pongmaster.png)
 
 ---

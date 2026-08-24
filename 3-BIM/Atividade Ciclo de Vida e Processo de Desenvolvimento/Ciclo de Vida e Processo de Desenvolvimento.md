@@ -52,3 +52,15 @@ Depois de encontrar a causa, o grupo deve *corrigir os blocos* e testar novament
 A sequência pode ser:
 
 *Identificar o problema → Reproduzir o erro → Investigar os blocos → Corrigir → Testar novamente → Verificar se o problema foi resolvido.*
+
+---
+
+## Questão 5 — Quando termina o desenvolvimento?
+
+*Discordamos da afirmação.* O desenvolvimento de um aplicativo não termina definitivamente quando sua primeira versão é entregue.
+
+Depois que o aplicativo é disponibilizado, podem aparecer novos erros, sugestões dos usuários, mudanças nos dispositivos ou novas necessidades. Por isso, é necessário realizar a *manutenção* do software.
+
+O grupo pode corrigir erros, melhorar funcionalidades existentes e adicionar novos recursos. Essas alterações podem gerar novas versões, como a versão 1.1 para correção de erros ou a versão 2.0 para adicionar novas funcionalidades.
+
+Portanto, um aplicativo não fica "pronto para sempre". Ele faz parte de um *ciclo de vida*, no qual pode ser planejado, desenvolvido, testado, corrigido, atualizado e melhorado continuamente. A manutenção é importante para garantir que o aplicativo continue funcionando corretamente e atendendo às necessidades dos usuários.

@@ -26,3 +26,13 @@ O grupo deveria verificar, por exemplo, se o aplicativo funciona quando o usuár
 Além disso, devem ser testados os botões, a navegação entre as telas, a exibição das informações e o funcionamento em diferentes tamanhos de tela.
 
 Os testes são importantes porque permitem encontrar e corrigir problemas antes que o aplicativo seja disponibilizado para os usuários.
+
+---
+
+## Questão 3 — Mudanças fazem parte do desenvolvimento?
+
+*Discordamos da afirmação.* Um aplicativo funcionar tecnicamente não significa que ele esteja completamente pronto.
+
+Se os usuários não conseguem entender facilmente como utilizar o aplicativo, existe um problema de *interface ou experiência do usuário*. Nesse caso, mesmo que todas as funções estejam funcionando, é necessário fazer alterações para melhorar a utilização.
+
+O objetivo de um aplicativo não é apenas executar seus comandos corretamente, mas também permitir que os usuários consigam utilizá-lo de maneira simples e clara. Portanto, o grupo poderia reorganizar os elementos, alterar textos, melhorar os botões ou modificar a navegação e depois realizar novos testes.

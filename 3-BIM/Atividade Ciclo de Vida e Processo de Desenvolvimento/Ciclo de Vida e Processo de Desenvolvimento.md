@@ -36,3 +36,19 @@ Os testes são importantes porque permitem encontrar e corrigir problemas antes 
 Se os usuários não conseguem entender facilmente como utilizar o aplicativo, existe um problema de *interface ou experiência do usuário*. Nesse caso, mesmo que todas as funções estejam funcionando, é necessário fazer alterações para melhorar a utilização.
 
 O objetivo de um aplicativo não é apenas executar seus comandos corretamente, mas também permitir que os usuários consigam utilizá-lo de maneira simples e clara. Portanto, o grupo poderia reorganizar os elementos, alterar textos, melhorar os botões ou modificar a navegação e depois realizar novos testes.
+
+---
+
+## Questão 4 — E quando alguma coisa dá errado?
+
+O grupo não precisa recomeçar todo o projeto. É possível seguir um processo organizado para encontrar e corrigir o problema.
+
+Primeiro, o grupo deve *identificar exatamente o problema*, verificando quais dados não estão sendo armazenados corretamente. Depois, deve tentar reproduzir o erro para descobrir em quais situações ele acontece.
+
+Em seguida, deve analisar os blocos responsáveis pelo cadastro e pelo armazenamento no TinyDB, verificando, por exemplo, se a informação está sendo salva com a chave correta e se os dados estão sendo recuperados corretamente.
+
+Depois de encontrar a causa, o grupo deve *corrigir os blocos* e testar novamente. Se o problema continuar, novos testes devem ser realizados até encontrar uma solução.
+
+A sequência pode ser:
+
+*Identificar o problema → Reproduzir o erro → Investigar os blocos → Corrigir → Testar novamente → Verificar se o problema foi resolvido.*

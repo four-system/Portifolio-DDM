@@ -15,3 +15,14 @@ Antes de começar a criar as telas no App Inventor, o grupo deveria planejar o a
 
 Também seria importante definir quais dados serão armazenados e quais recursos do App Inventor serão utilizados, como o TinyDB.
 
+---
+
+## Questão 2 — Funciona, então está pronto?
+
+*Não concordamos com essa decisão.* O fato de o aplicativo ter funcionado uma vez não significa que ele esteja pronto. É necessário realizar vários testes para encontrar possíveis erros.
+
+O grupo deveria verificar, por exemplo, se o aplicativo funciona quando o usuário deixa algum campo vazio, digita informações incorretas ou utiliza os recursos de uma maneira diferente da esperada. Também seria necessário verificar se os dados continuam salvos depois de fechar e abrir o aplicativo novamente.
+
+Além disso, devem ser testados os botões, a navegação entre as telas, a exibição das informações e o funcionamento em diferentes tamanhos de tela.
+
+Os testes são importantes porque permitem encontrar e corrigir problemas antes que o aplicativo seja disponibilizado para os usuários.

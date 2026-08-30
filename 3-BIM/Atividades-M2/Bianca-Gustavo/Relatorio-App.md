@@ -63,7 +63,30 @@ Foi implementada uma mecânica de evento onde surge um **chefão a cada 10 ponto
 
 ---
 
-# Projeto 2 – Acelerômetro
+# Projeto 4 – Carro
+
+## Objetivo do jogo
+
+O jogo é de um carro que precisa desviar de pedras em uma rodovia. O jogador usa o acelerômetro do celular para movimentar o carro para a direita e para a esquerda.
+
+## Modificações realizadas (Gustavo)
+
+Foi adicionado o acelerômetro para controlar o carro inclinando o celular. Também foi adicionado um sistema de colisão com as pedras. Quando o carro bate em uma pedra, ela sorteia uma nova posição, podendo aparecer no lado direito ou esquerdo da rodovia.
+
+---
+
+## Print do Design
+
+![Design do Carro](imagens/carro.png)
+
+## Print dos Blocos
+
+![Blocos1 do Carro](imagens/bloco1carro.png)
+![Blocos2 do Carro](imagens/bloco2carro.png)
+
+---
+
+# Projeto 2 – Acelerômetro 2 (Magic Ball)
 
 ## Objetivo do jogo
 

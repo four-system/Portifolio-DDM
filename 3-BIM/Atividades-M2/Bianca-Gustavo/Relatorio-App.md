@@ -81,7 +81,7 @@ Foi adicionado o acelerômetro para controlar o carro inclinando o celular. Tamb
 
 ## Print dos Blocos
 
-![Blocos1 do Carro](imagens/acelerometro1-1.png)
+![Blocos1 do Carro](imagens/Acelerometro1-1.png)
 ![Blocos2 do Carro](imagens/blocoacelerometro1-1.png)
 
 ---

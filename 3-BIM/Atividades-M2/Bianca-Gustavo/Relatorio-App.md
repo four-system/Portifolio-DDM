@@ -71,7 +71,7 @@ O jogo é de um carro que precisa desviar de pedras em uma rodovia. O jogador us
 
 ## Modificações realizadas (Gustavo)
 
-Foi adicionado o acelerômetro para controlar o carro inclinando o celular. Também foi adicionado um sistema de colisão com as pedras. Quando o carro bate em uma pedra, ela sorteia uma nova posição, podendo aparecer no lado direito ou esquerdo da rodovia.
+Foi adicionado o acelerômetro para controlar o carro inclinando o celular. Também foi adicionado um sistema de colisão com as pedras. Quando o carro bate em uma pedra, ela sorteia uma nova posição, podendo aparecer no lado direito ou esquerdo da rodovia. Também foi adicionado em curvas bruscas, um efeito sonoro de pneu deslizando no asfalto.
 
 ---
 

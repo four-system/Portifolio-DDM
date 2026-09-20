@@ -48,3 +48,22 @@ O jogo consiste em uma batalha espacial entre dois jogadores, onde cada jogador 
 Cada nave possui uma **Ultimate diferente**, com uma mecânica própria que pode alterar o comportamento da batalha.
 
 ---
+---
+
+## Funcionamento do jogo
+
+A partida começa com os dois jogadores controlando suas respectivas naves.
+
+Durante a batalha, os jogadores podem disparar tiros contra o adversário. O tiro permanece em jogo enquanto estiver viajando pela arena, podendo interagir com as paredes e outros elementos presentes no cenário.
+
+Quando um jogador é atingido, sua nave é destruída e ele recebe acesso à sua Ultimate.
+
+Porém, a Ultimate possui uma condição para ser utilizada: ela só pode ser ativada enquanto o tiro daquele jogador estiver em jogo.
+
+O funcionamento pode ser resumido da seguinte maneira:
+
+**Jogador morre → Ultimate é liberada → jogador dispara → Ultimate pode ser ativada enquanto o tiro estiver em jogo → tiro termina → Ultimate deixa de poder ser utilizada naquele momento.**
+
+Cada Ultimate também pode ser utilizada **uma vez por tiro**.
+
+---

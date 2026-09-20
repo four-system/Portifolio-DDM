@@ -41,4 +41,10 @@ O objetivo deste trabalho foi desenvolver e personalizar três jogos utilizando 
 
 ## Objetivo do jogo
 
+O jogo consiste em inclinar seu celular para mostrar as direções X, Y e Z, enquanto o seu carro se move pela tela
+
+## Modificações realizadas
+
+As modificações realizadas foram: controlar seu carro na estrada, tentando pegar as moedas, que seriam seus pontos, em um tempo.
+---
 

@@ -116,3 +116,29 @@ Também iniciou o conceito e o desenvolvimento das **Ultimates**.
 Foi responsável por dar continuidade ao desenvolvimento das Ultimates e por **finalizar as habilidades e suas respectivas mecânicas**.
 
 ---
+
+## Design
+
+O design do jogo foi desenvolvido por **Bianca Rocha do Nascimento** e **Gustavo Bastos da Silva**.
+
+Foram desenvolvidos elementos visuais como o menu, botões, textos, fundos e outros elementos utilizados na interface e durante a partida.
+
+---
+
+## Utilização de Inteligência Artificial
+
+Durante o desenvolvimento do projeto, foram utilizadas ferramentas de **Inteligência Artificial (IA)** como auxílio.
+
+A IA foi utilizada para criar alguns elementos visuais do jogo, como:
+
+* Alguns fundos;
+* Fundo do menu;
+* Textos;
+* Alguns botões;
+* Outros elementos visuais.
+
+Além da parte visual, a IA também foi utilizada como auxílio na **programação**, principalmente para desenvolver algumas lógicas e ajudar na correção de erros encontrados durante o desenvolvimento do projeto.
+
+A Inteligência Artificial foi utilizada como uma ferramenta de apoio para a equipe durante o processo de desenvolvimento.
+
+---

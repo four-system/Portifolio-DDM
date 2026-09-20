@@ -56,3 +56,20 @@ As modificações realizadas foram: controlar seu carro na estrada, tentando peg
 ## Print dos Blocos
 
 ![Blocos do Acelerometro](Imagens/blocosacelerometro.png)
+
+---
+
+# Projeto 2 – Magic Ball
+
+## Objetivo do jogo
+
+O jogo é de uma bola que que deve acertar um buraco preto, no jogo tem um tempo pra você acertar as bolas, e tem uma quantidade específica de bolas para acertar para ganhar o jogo
+
+## Modificações realizadas
+
+Foi adicionado um sistema para a bola ficar cada vez mais rápida, e também quando acertar a bola, você ganhar mais tempo, como por exemplo +3 segundos. Além disso mudamos o visual, para ficar com uma temática de espaço cideral.
+
+---
+
+## Print do Design
+

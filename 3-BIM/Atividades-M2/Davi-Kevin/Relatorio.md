@@ -84,3 +84,16 @@ Foi adicionado um sistema para a bola ficar cada vez mais rápida, e também qua
 ---
 
 # Projeto 3 - Bilhar
+
+## Objetivo do jogo
+
+O jogo simula uma mesa de sinuca com interação direta dos elementos na tela.
+
+## Modificações realizadas
+
+Foi introduzido um sistema de pontuação, que é só acertar a bola nos buracos que você já ganha ponto. Além disso foi introduzido também um sistema de tempo, um tempo para você acertar os buracos. Se você deixar o tempo esgotar você perde e o tempo reseta.
+
+---
+
+## Print do Design
+

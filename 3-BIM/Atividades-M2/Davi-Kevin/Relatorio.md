@@ -122,3 +122,7 @@ Foi criado um sistema de vidas, onde se você deixar a bola escapar vai desconta
 
 ## Print do Design
 
+![Design do PongMaster](Imagens/designpongmaster.png)
+
+## Print dos Blocos
+

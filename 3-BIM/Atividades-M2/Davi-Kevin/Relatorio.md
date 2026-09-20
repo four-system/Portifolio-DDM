@@ -112,3 +112,13 @@ Foi introduzido um sistema de pontuação, que é só acertar a bola nos buracos
 
 ## Objetivo do jogo
 
+O jogo consiste em controlar uma barra para impedir que a bola saia da tela, rebatendo-a continuamente. O objetivo é manter a bola em movimento pelo maior tempo possível e acumular pontuação.
+
+## Modificações realizadas
+
+Foi criado um sistema de vidas, onde se você deixar a bola escapar vai descontar uma vida, apenas chegando na vida 0, você tem seus pontos zerados e continua novamente o jogo. Além disso foi implementado um visual novo, como se o jogo se passasse no céu, com a bola virando o Sol, e a barra um bloco de terra, e os blocos de cima sendo as nuvens.
+
+---
+
+## Print do Design
+

@@ -126,3 +126,13 @@ Foi criado um sistema de vidas, onde se você deixar a bola escapar vai desconta
 
 ## Print dos Blocos
 
+![Blocos do PongMaster](Imagens/blocopongmaster1.png)
+![Blocos do PongMaster](Imagens/blocopongmaster2.png)
+![Blocos do PongMaster](Imagens/blocopongmaster3.png)
+![Blocos do PongMaster](Imagens/blocopongmaster4.png)
+![Blocos do PongMaster](Imagens/blocopongmaster5.png)
+![Blocos do PongMaster](Imagens/blocopongmaster6.png)
+![Blocos do PongMaster](Imagens/blocopongmaster7.png)
+
+---
+

@@ -49,3 +49,8 @@ As modificações realizadas foram: controlar seu carro na estrada, tentando peg
 
 ---
 
+## Print do Design
+
+![Design do Acelerometro](Imagens/designacelerometro.png)
+
+## Print dos Blocos

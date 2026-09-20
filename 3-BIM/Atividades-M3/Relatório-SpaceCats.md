@@ -88,3 +88,31 @@ A cada vez que o tiro atinge a parede, ela muda para uma nova versão. A sequên
 Após a quarta batida, a Ultimate é encerrada. A sequência não retorna para a primeira parede.
 
 ---
+
+## Desenvolvimento do projeto
+
+O projeto foi desenvolvido pelos quatro integrantes, com cada um contribuindo em diferentes partes do jogo.
+
+### Gustavo Bastos da Silva
+
+Foi responsável pela criação da **base do jogo**, desenvolvendo a estrutura inicial e dando início ao funcionamento principal do projeto.
+
+Também foi responsável pela **adição dos sons** utilizados no jogo.
+
+### Bianca Rocha do Nascimento
+
+Foi responsável pela correção da **lógica dos tiros**, fazendo com que eles pudessem atravessar o Canvas corretamente.
+
+Também continuou o desenvolvimento do projeto e participou da criação do design do jogo.
+
+### Davi Alves Bressan
+
+Foi responsável pela implementação do sistema **TinyDB** no projeto.
+
+Também iniciou o conceito e o desenvolvimento das **Ultimates**.
+
+### Kevin Yamake Nozaki
+
+Foi responsável por dar continuidade ao desenvolvimento das Ultimates e por **finalizar as habilidades e suas respectivas mecânicas**.
+
+---

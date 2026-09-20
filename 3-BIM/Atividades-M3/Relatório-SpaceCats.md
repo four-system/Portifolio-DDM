@@ -1,6 +1,4 @@
----
-
-# Instituição
+## Instituição
 
 `ETEC Vasco Antônio Venchiarutti`
 

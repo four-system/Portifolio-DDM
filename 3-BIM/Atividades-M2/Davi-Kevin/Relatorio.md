@@ -136,3 +136,10 @@ Foi criado um sistema de vidas, onde se você deixar a bola escapar vai desconta
 
 ---
 
+# Considerações Finais
+
+O desenvolvimento das alterações nos quatro jogos permitiu aplicar na prática os conceitos estudados na disciplina de Desenvolvimento para Dispositivos Móveis (DDM), utilizando programação por blocos no MIT App Inventor. As modificações realizadas contribuíram para tornar a jogabilidade mais dinâmica, desafiadora e com mecânicas de pontuação e eventos bem definidas.
+
+---
+
+*Relatório desenvolvido para fins educacionais na disciplina de Desenvolvimento para Dispositivos Móveis (DDM), utilizando o MIT App Inventor.*

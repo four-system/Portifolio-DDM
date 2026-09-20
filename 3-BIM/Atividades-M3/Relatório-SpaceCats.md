@@ -142,3 +142,30 @@ Além da parte visual, a IA também foi utilizada como auxílio na **programaç�
 A Inteligência Artificial foi utilizada como uma ferramenta de apoio para a equipe durante o processo de desenvolvimento.
 
 ---
+
+## Print do Design
+
+![Design do Space Cats](imagens/spacecats.png)
+
+---
+
+## Print dos Blocos
+
+![Blocos1 do Space Cats](imagens/bloco1spacecats.png)
+![Blocos2 do Space Cats](imagens/bloco2spacecats.png)
+![Blocos3 do Space Cats](imagens/bloco3spacecats.png)
+![Blocos4 do Space Cats](imagens/bloco4spacecats.png)
+
+---
+
+# Considerações Finais
+
+O desenvolvimento do **Space Cats** permitiu aplicar na prática os conceitos estudados na disciplina de Desenvolvimento para Dispositivos Móveis (DDM), utilizando programação por blocos no MIT App Inventor.
+
+Durante o desenvolvimento, foram trabalhados conceitos de movimentação, colisão, sistema de tiros, lógica de jogo, armazenamento de dados, efeitos sonoros e habilidades especiais.
+
+O projeto também foi desenvolvido em equipe, com cada integrante contribuindo em diferentes partes do jogo, desde a criação da base até a implementação das Ultimates, do sistema TinyDB, dos sons e do design.
+
+---
+
+*Relatório desenvolvido para fins educacionais na disciplina de Desenvolvimento para Dispositivos Móveis (DDM), utilizando o MIT App Inventor.*

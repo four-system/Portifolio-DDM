@@ -76,3 +76,11 @@ Foi adicionado um sistema para a bola ficar cada vez mais rápida, e também qua
 ![Design do Magic ball](Imagens/designmagicball.png)
 
 ## Print dos Blocos
+
+![Blocos do Magic ball](Imagens/blocomagicball1.png)
+![Blocos do Magic ball](Imagens/blocomagicball2.png)
+![Blocos do Magic ball](Imagens/blocomagicball3.png)
+
+---
+
+# Projeto 3 - Bilhar

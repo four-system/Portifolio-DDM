@@ -46,5 +46,6 @@ O jogo consiste em inclinar seu celular para mostrar as direções X, Y e Z, enq
 ## Modificações realizadas
 
 As modificações realizadas foram: controlar seu carro na estrada, tentando pegar as moedas, que seriam seus pontos, em um tempo.
+
 ---
 

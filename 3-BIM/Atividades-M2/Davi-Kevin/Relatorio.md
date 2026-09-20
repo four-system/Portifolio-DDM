@@ -97,3 +97,18 @@ Foi introduzido um sistema de pontuação, que é só acertar a bola nos buracos
 
 ## Print do Design
 
+![Design do Bilhar](Imagens/designbilhar.png)
+
+## Print dos Blocos
+
+![Blocos do Bilhar](Imagens/blocobilhar1.png)
+![Blocos do Bilhar](Imagens/blocobilhar2.png)
+![Blocos do Bilhar](Imagens/blocobilhar3.png)
+![Blocos do Bilhar](Imagens/blocobilhar4.png)
+
+---
+
+# Projeto 4 - PongMaster
+
+## Objetivo do jogo
+

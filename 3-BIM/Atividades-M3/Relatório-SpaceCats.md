@@ -1,3 +1,5 @@
+---
+
 ## Instituição
 
 `ETEC Vasco Antônio Venchiarutti`
@@ -47,7 +49,6 @@ O jogo consiste em uma batalha espacial entre dois jogadores, onde cada jogador 
 
 Cada nave possui uma **Ultimate diferente**, com uma mecânica própria que pode alterar o comportamento da batalha.
 
----
 ---
 
 ## Funcionamento do jogo

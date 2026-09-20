@@ -73,3 +73,6 @@ Foi adicionado um sistema para a bola ficar cada vez mais rápida, e também qua
 
 ## Print do Design
 
+![Design do Magic ball](Imagens/designmagicball.png)
+
+## Print dos Blocos

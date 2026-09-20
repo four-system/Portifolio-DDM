@@ -67,3 +67,24 @@ O funcionamento pode ser resumido da seguinte maneira:
 Cada Ultimate também pode ser utilizada **uma vez por tiro**.
 
 ---
+
+## Ultimates
+
+Cada nave possui uma Ultimate diferente, criada para possuir uma mecânica própria durante a batalha.
+
+As habilidades foram desenvolvidas para alterar o comportamento do jogo enquanto o tiro do jogador permanece em movimento.
+
+### Ultimate 3
+
+A terceira Ultimate possui uma mecânica envolvendo paredes.
+
+A cada vez que o tiro atinge a parede, ela muda para uma nova versão. A sequência funciona da seguinte forma:
+
+* **Primeira batida:** Parede 1
+* **Segunda batida:** Parede 2
+* **Terceira batida:** Parede 3
+* **Quarta batida:** A parede é quebrada
+
+Após a quarta batida, a Ultimate é encerrada. A sequência não retorna para a primeira parede.
+
+---

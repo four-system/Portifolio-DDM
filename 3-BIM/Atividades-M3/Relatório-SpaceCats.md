@@ -145,10 +145,10 @@ A Inteligência Artificial foi utilizada como uma ferramenta de apoio para a equ
 ## Prints da Interface e do Design
 
 ### Tela de Seleção de Personagem (Jogador 1)
-![Interface de Seleção P1](imagens/selecao.png)[cite: 19]
+![Interface de Seleção P1](prints/selecao.png)[cite: 19]
 
 ### Interface da Arena de Batalha (Jogo em Execução)
-![Interface de Jogo](imagens/jogo.png)[cite: 15]
+![Interface de Jogo](prints/jogo.png)[cite: 15]
 
 ---
 
@@ -160,7 +160,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 1. Colisão das Bolas com as Bordas (Quicar e Transição)
 
-![Colisão das Bolas com a Borda](imagens/bolaborda.png)
+![Colisão das Bolas com a Borda](prints/bolaborda.png)
 
 * **`quando Bola1.AlcançouBorda` / `quando Bola2.AlcançouBorda`:** Controla a física dos tiros ao atingirem os limites da arena.
 * **Lógica de Transição:** Caso o tiro atinja a borda limite (borda 3 ou -3), o jogo executa um procedimento para transferir a bola entre áreas (`bola1pra2` ou `bola2pra1`).
@@ -170,7 +170,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 2. Escolha e Seleção do Jogador 1 (Clique nos Personagens)
 
-![Seleção de Personagens P1](imagens/selecao1.png)[cite: 20]
+![Seleção de Personagens P1](prints/selecao1.png)[cite: 20]
 
 * **`quando Imagem1..4.Clique`:** Trata a seleção inicial do Jogador 1 ao clicar em uma das quatro opções de personagens/naves[cite: 20].
 * **Atribuição de Valor:** Define a variável `global selecionado1` com o número correspondente (1 a 4)[cite: 20].
@@ -180,7 +180,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 3. Confirmação de Seleção do Jogador 1
 
-![Confirmação de Seleção P1](imagens/confirmar1.png)
+![Confirmação de Seleção P1](prints/confirmar1.png)
 
 * **`quando Botão2.Clique`:** Trata a confirmação da escolha de nave do Jogador 1 baseando-se no valor armazenado na variável `global selecionado1`.
   * **Visual:** Altera o componente de imagem para o estado confirmado (`red-choosen.png`, `blue-choosen.png`, etc.) e ativa o `Temporizador2`.
@@ -191,7 +191,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 4. Animação de Seleção e Expansão Visual (Jogador 1)
 
-![Animação de Seleção P1](imagens/animacao1select.png)
+![Animação de Seleção P1](prints/animacao1select.png)
 
 * **`quando Temporizador1.Disparo`:** Executa o ciclo de animação de destaque visual para a nave selecionada.
 * **Lógica de Expansão:** Verifica a opção em `global selecionado1` e adiciona +4 pixels à largura e altura do quadro e da imagem a cada pulso do temporizador.
@@ -201,7 +201,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 5. Seleção do Jogador 2 e Validação de Personagem Repetido
 
-![Seleção de Personagens P2](imagens/selecao2.png)[cite: 11]
+![Seleção de Personagens P2](prints/selecao2.png)[cite: 11]
 
 * **`quando Imagem1..4.Clique` (Tela Seleção 2):** Registra a escolha do Jogador 2 e valida se o personagem já foi escolhido pelo Jogador 1[cite: 11].
 * **Bloqueio de Duplicidade:** Compara a opção clicada (`global selecionado2`) com o valor salvo no **TinyDB1** sob a tag `"P1"`[cite: 11].
@@ -212,8 +212,8 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 6. Confirmação do P2, Salvamento (TinyDB) e Reset de Dimensões
 
-![Confirmação P2 e Reset](imagens/confirmar2.png)[cite: 12]
-![Procedimento Reset](imagens/procedimento1.png)[cite: 16]
+![Confirmação P2 e Reset](prints/confirmar2.png)[cite: 12]
+![Procedimento Reset](prints/procedimento1.png)[cite: 16]
 
 * **`quando Botão2.Clique` (P2):** Executa `salvarSelecaoP2`, troca a imagem do card para o estado confirmado (`red-choosen.png`, etc.), aciona o `Temporizador2` e toca o som de confirmação[cite: 12].
 * **`quando Temporizador2.Disparo`:** Transiciona o aplicativo para a tela principal de combate (`TelaJogo`)[cite: 12].
@@ -223,8 +223,8 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 7. Salvamento em Banco de Dados Local (TinyDB) do Jogador 1 e 2
 
-![TinyDB P1](imagens/tinydb1.png)[cite: 21]
-![Animação Seleção P2 e TinyDB](imagens/animacao2tinydb.png)
+![TinyDB P1](prints/tinydb1.png)[cite: 21]
+![Animação Seleção P2 e TinyDB](prints/animacao2tinydb.png)
 
 * **Procedimento `p1selecionado`:** Executa a chamada `TinyDB1.ArmazenarValor` definindo o rótulo como `" P1 "` e o valor como o conteúdo da variável `global selecionado1`[cite: 21].
 * **Procedimento `salvarSelecaoP2`:** Salva o valor da variável `global selecionado2` no **TinyDB1** sob o rótulo `"P2"`.
@@ -234,7 +234,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 8. Inicialização da Partida e Carregamento de Skins (TelaJogo)
 
-![Inicialização das Cores na TelaJogo](imagens/qualcor1.png)[cite: 17]
+![Inicialização das Cores na TelaJogo](prints/qualcor1.png)[cite: 17]
 
 * **`quando TelaJogo.Inicializar`:** Configura as naves e habilidades dos dois jogadores logo ao carregar a partida[cite: 17].
 * **Leitura do TinyDB:** Lê as tags `"P1"` e `"P2"` salvas no TinyDB1[cite: 17].
@@ -246,7 +246,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 9. Mapeamento e Configuração das Ultimates por Personagem
 
-![Ativação de Ultimates por Cor](imagens/qualult.png)[cite: 18]
+![Ativação de Ultimates por Cor](prints/qualult.png)[cite: 18]
 
 * **Procedimentos `qualult` e `qualult2`:** Determinam qual habilidade especial será atribuída a cada jogador com base na cor/nave escolhida (`global cores` / `global cores2`)[cite: 18].
   * **Opção 1:** Atribui `ultativa = 1` (Tiro Guiado / Homing Shot)[cite: 18].
@@ -258,7 +258,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 10. Movimentação dos Jogadores e Sincronização dos Tiros
 
-![Movimentação e Sincronização](imagens/jogadorarrastado.png)[cite: 14]
+![Movimentação e Sincronização](prints/jogadorarrastado.png)[cite: 14]
 
 * **`quando jogador1.Arrastado` / `quando jogador2.Arrastado`:** Permite que os jogadores movimentem suas naves verticalmente na tela através do toque e arraste (`yAtual`), desde que a partida esteja ativa (`global jogoativo = verdadeiro`)[cite: 14].
 * **`quando Temporizador3.Disparo`:** Atualiza e sincroniza continuamente a posição $X$ e $Y$ dos componentes gráficos de tiro (`Tiro` e `tiro2`) com a posição real das projéteis (`Bola1` e `Bola2`)[cite: 14].
@@ -268,7 +268,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 11. Controle de Rebatidas, Turnos e Ativação de Ultimates
 
-![Ativação de Rebatidas e Ultimates](imagens/ativarerebatidas.png)
+![Ativação de Rebatidas e Ultimates](prints/ativarerebatidas.png)
 
 * **Procedimento `rebatidas`:**
   * Verifica se o total de quiques (`global numerobordas`) atingiu o limite de 7 rebatidas.
@@ -280,7 +280,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 12. Disparo de Tiros e Desencadeamento de Habilidades
 
-![Disparo e Ultimates](imagens/blocosultdisparo.png)
+![Disparo e Ultimates](prints/blocosultdisparo.png)
 
 * **`quando disparo.Disparo` / `quando disparo2.Disparo`:** Posiciona o projétil (`Bola1` / `Bola2`) nas coordenadas exatas da nave do jogador antes do lançamento.
 * **`quando ult1.Tocou` / `quando ult2.Tocou`:** Registra o acionamento da Ultimate pelo jogador, oculta o botão da habilidade e executa o procedimento `qualult`.
@@ -290,7 +290,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 13. Colisões do Tiro 1 – Escudos, Paredes Evolutivas e Dano (Parte 1)
 
-![Colisão Bola 1 - Parte 1](imagens/bola1parte1.png)
+![Colisão Bola 1 - Parte 1](prints/bola1parte1.png)
 
 * **`quando Bola1.ColidiuCom`:**
   * **Colisão com Escudo:** Se o projétil atingir o escudo, toca o efeito sonoro de impacto, oculta o escudo e inverte o sentido do tiro (+180°).
@@ -303,7 +303,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 14. Colisões do Tiro 1 – Impacto no Jogador e Fim de Jogo (Parte 2)
 
-![Colisão Bola 1 - Parte 2](imagens/bola1parte2.png)
+![Colisão Bola 1 - Parte 2](prints/bola1parte2.png)
 
 * **Impacto no Jogador 1:**
   * **Tiro Guiado (Ultimate 1):** Se a Ultimate 1 estiver ativa, redireciona a trajetória da bola diretamente até o alvo (`ApontarParaPonto`) com alta velocidade (17).
@@ -314,7 +314,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 15. Colisões do Tiro 2 – Escudos e Paredes Evolutivas (Parte 1)
 
-![Colisão Bola 2 - Parte 1](imagens/bola2parte1.png)
+![Colisão Bola 2 - Parte 1](prints/bola2parte1.png)
 
 * Lógica de colisão para o projétil do Jogador 2 (`Bola2`):
   * Gerencia colisões com `escudo2`, ocultando o escudo e refletindo a direção da bola.
@@ -324,7 +324,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 16. Colisões do Tiro 2 – Dano ao Jogador 2 e Vitória do P1 (Parte 2)
 
-![Colisão Bola 2 - Parte 2](imagens/bola2parte2.png)
+![Colisão Bola 2 - Parte 2](prints/bola2parte2.png)
 
 * **Impacto no Jogador 2:**
   * Se a Ultimate 2 do P2 estiver ativa, recalcula a rota da `Bola2` apontando diretamente para as coordenadas do Jogador 1 com velocidade 25.
@@ -335,7 +335,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 17. Animação de Explosão e Destruição das Naves
 
-![Animação de Explosão](imagens/explosao.png)[cite: 13]
+![Animação de Explosão](prints/explosao.png)[cite: 13]
 
 * **`quando animacaoexplosao.Disparo`:** Controla a sequência de quadros (frame-by-frame) da explosão quando uma nave é atingida[cite: 13].
 * **Centralização do Efeito:** Calcula o centro exato da nave atingida (`X = jogador.X + jogador.Largura/2 - explosao.Largura/2`) para alinhar a animação[cite: 13].
@@ -346,7 +346,7 @@ Abaixo estão detalhadas as capturas de tela de todos os blocos de programação
 
 ### 18. Reset de Tiros, Ativação de Escudos e Reinício de Partida
 
-![Reset e Escudos](imagens/ultimosblocos.png)[cite: 22]
+![Reset e Escudos](prints/ultimosblocos.png)[cite: 22]
 
 * **Procedimento `resetarTiros`:** Zera a velocidade das bolas (`Bola1` e `Bola2`), desativa o estado de visibilidade e movimento dos tiros e reposiciona os projéteis para as coordenadas relativas das naves dos jogadores (`jogador1.X + 180`, `jogador2.X - 50`)[cite: 22].
 * **`quando escudo.Disparo`:** Verifica se a Ultimate do tipo 2 foi acionada por algum dos jogadores (`ultativa1 = 2` ou `ultativa2 = 2`). Se sim, torna visível o respectivo escudo (`escudo1` ou `escudo2`) e posiciona-o em relação às coordenadas da nave[cite: 22].

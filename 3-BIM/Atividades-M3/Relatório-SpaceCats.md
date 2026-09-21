@@ -27,7 +27,7 @@
 * `Gustavo Bastos da Silva`
 * `Bianca Rocha do Nascimento`
 * `Davi Alves Bressan`
-* `Kevin Yamake Nozaki`
+* `Kevin Iamake Nozaki`
 
 ---
 
@@ -110,7 +110,7 @@ Foi responsável pela implementação do sistema **TinyDB** no projeto.
 
 Também iniciou o conceito e o desenvolvimento das **Ultimates**.
 
-### Kevin Yamake Nozaki
+### Kevin Iamake Nozaki
 
 Foi responsável por dar continuidade ao desenvolvimento das Ultimates e por **finalizar as habilidades e suas respectivas mecânicas**.
 

@@ -79,3 +79,33 @@ As alternativas também são embaralhadas pelo PHP, fazendo com que a
 posição da resposta correta possa mudar entre as partidas.
 
 ------------------------------------------------------------------------
+
+## Banco de dados
+
+Foi utilizado o banco de dados `dbquiz2`, com uma tabela chamada
+`impressionismo`.
+
+Essa tabela armazena as informações necessárias para cada pergunta,
+incluindo:
+
+-   Identificação da pergunta;
+-   Enunciado;
+-   Alternativa A;
+-   Alternativa B;
+-   Alternativa C;
+-   Alternativa D;
+-   Letra correspondente à resposta correta.
+
+O banco de dados permite manter as perguntas organizadas e facilita a
+inclusão de novas questões sem precisar alterar toda a estrutura do
+aplicativo.
+
+------------------------------------------------------------------------
+
+## Desenvolvimento do projeto
+
+O projeto foi desenvolvido por Gustavo Bastos da Silva e Bianca Rocha do
+Nascimento, com participação nas etapas de criação visual, organização
+do banco de dados e programação da comunicação entre o aplicativo e o
+servidor.
+

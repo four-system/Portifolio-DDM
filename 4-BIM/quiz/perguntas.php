@@ -2,15 +2,8 @@
 
 include "conexao.php";
 
-// A consulta SQL precisa estar dentro da variável $sql entre aspas
-$sql = "SELECT * FROM renascimento
-        UNION ALL
-        SELECT * FROM barroco
-        UNION ALL
-        SELECT * FROM realismo_romantismo
-        UNION ALL
-        SELECT * FROM vanguardas_modernismo
-        ORDER BY RAND()";
+// Consulta direta na nova tabela unificada
+$sql = "SELECT * FROM perguntas ORDER BY RAND()";
 
 $resultado = mysqli_query($conexao, $sql);
 

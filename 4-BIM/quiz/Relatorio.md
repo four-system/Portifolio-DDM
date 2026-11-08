@@ -111,6 +111,16 @@ servidor.
 
 ------------------------------------------------------------------------
 
+### Bianca Rocha do Nascimento
+
+Bianca iniciou o desenvolvimento do design do aplicativo, criando uma
+primeira base visual para a interface.
+
+Também iniciou a criação e a organização do banco de dados, que seria
+utilizado para armazenar as perguntas e suas respectivas alternativas.
+
+------------------------------------------------------------------------
+
 ### Gustavo Bastos da Silva
 
 Gustavo trabalhou na parte de integração entre o aplicativo, o PHP e o
@@ -123,3 +133,110 @@ em JSON, permitindo que as perguntas sejam enviadas ao celular por meio
 do servidor local.
 
 ------------------------------------------------------------------------
+
+## Programação e comunicação com o servidor
+
+Para que o aplicativo pudesse receber as perguntas armazenadas no banco
+de dados, foram utilizados arquivos PHP com funções diferentes.
+
+### 1. Conexão com o banco de dados
+
+Foi criado um arquivo PHP chamado `conexao.php`, responsável por
+realizar a conexão entre o PHP e o banco de dados MySQL.
+
+Esse arquivo informa os dados necessários para acessar o banco, como
+servidor, usuário, senha e nome do banco utilizado.
+
+### 2. Busca e organização das perguntas
+
+Foi criado outro arquivo PHP, chamado `perguntas.php`, responsável por
+consultar a tabela `impressionismo`.
+
+A consulta seleciona até 10 perguntas aleatórias. Depois, o código
+organiza as alternativas e embaralha suas posições, atualizando também a
+letra da resposta correta para que ela continue correspondendo à
+alternativa certa.
+
+### 3. Conversão para JSON
+
+Após buscar e organizar as perguntas, o PHP transforma os dados em JSON.
+
+O JSON permite que as informações sejam transmitidas de forma organizada
+e compreendida pelo aplicativo. Nesse projeto, ele é utilizado para
+enviar os enunciados, as alternativas e as respostas corretas.
+
+### 4. Envio pelo servidor local
+
+Durante os testes, foi utilizado um servidor local para executar os
+arquivos PHP e permitir a comunicação com o aplicativo no celular.
+
+O aplicativo acessa o endereço correspondente ao arquivo
+`perguntas.php`. O servidor executa o código, consulta o banco de dados
+e retorna as perguntas no formato JSON.
+
+Assim, o aplicativo não precisa armazenar todas as perguntas diretamente
+em sua programação, pois pode recebê-las do banco de dados por meio do
+servidor.
+
+------------------------------------------------------------------------
+
+## Utilização de Inteligência Artificial
+
+Durante o desenvolvimento do projeto, foram utilizadas ferramentas de
+Inteligência Artificial (IA) como apoio em algumas etapas.
+
+A IA foi utilizada principalmente para:
+
+-   Auxiliar na criação dos comandos SQL utilizados para inserir as
+    perguntas no banco de dados;
+-   Servir como referência inicial para o design do aplicativo;
+-   Ajudar na organização de algumas partes do desenvolvimento.
+
+A Inteligência Artificial foi utilizada como uma ferramenta de apoio,
+contribuindo para agilizar algumas tarefas. Ela não substituiu o
+desenvolvimento e a participação dos alunos na montagem e integração do
+projeto.
+
+------------------------------------------------------------------------
+
+## Tecnologias utilizadas
+
+-   **MIT App Inventor:** criação e programação do aplicativo para
+    celular;
+-   **PHP:** conexão com o banco de dados, consulta e organização das
+    perguntas;
+-   **MySQL:** armazenamento das perguntas e alternativas;
+-   **SQL:** linguagem utilizada para consultar e inserir informações no
+    banco de dados;
+-   **JSON:** formato utilizado para enviar os dados ao aplicativo;
+-   **Servidor local:** execução dos arquivos PHP e comunicação com o
+    aplicativo durante os testes.
+
+------------------------------------------------------------------------
+
+# Considerações Finais
+
+O desenvolvimento do aplicativo de Quiz sobre Impressionismo permitiu
+colocar em prática conhecimentos relacionados à criação de aplicativos,
+programação, banco de dados e comunicação entre sistemas.
+
+Durante o projeto, foi possível integrar o MIT App Inventor com arquivos
+PHP e um banco de dados MySQL. Também foi trabalhada a conversão das
+informações para JSON, permitindo que as perguntas fossem enviadas ao
+celular por meio de um servidor local.
+
+O trabalho foi desenvolvido em dupla, com Bianca iniciando o design e a
+estrutura do banco de dados, enquanto também foram desenvolvidas as
+partes responsáveis pela conexão, consulta e envio das perguntas.
+
+A utilização de Inteligência Artificial serviu como apoio na criação dos
+comandos SQL e na busca de uma referência visual para o aplicativo. Com
+isso, o projeto ajudou a desenvolver conhecimentos importantes para a
+criação de aplicações que utilizam dados externos.
+
+------------------------------------------------------------------------
+
+*Relatório desenvolvido para fins educacionais na disciplina de
+Desenvolvimento para Dispositivos Móveis (DDM), utilizando o MIT App
+Inventor, PHP e MySQL.*
+

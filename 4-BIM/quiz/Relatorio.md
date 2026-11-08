@@ -34,7 +34,7 @@
 ## Objetivo
 
 O objetivo deste trabalho foi desenvolver um aplicativo de perguntas e
-respostas sobre o movimento artístico Impressionismo, utilizando o MIT
+respostas sobre alguns movimentos artísticos, utilizando o MIT
 App Inventor, PHP e um banco de dados MySQL. A proposta foi criar um
 aplicativo para celular que carregasse perguntas armazenadas no banco de
 dados e permitisse que o usuário respondesse a elas.
@@ -46,7 +46,7 @@ dados e permitisse que o usuário respondesse a elas.
 ## Objetivo do aplicativo
 
 O aplicativo tem como objetivo testar os conhecimentos do usuário sobre
-o Impressionismo por meio de perguntas de múltipla escolha.
+os movimentos por meio de perguntas de múltipla escolha.
 
 As perguntas são armazenadas em um banco de dados e carregadas pelo
 aplicativo através de uma conexão com arquivos PHP. Dessa forma, o
@@ -82,8 +82,8 @@ posição da resposta correta possa mudar entre as partidas.
 
 ## Banco de dados
 
-Foi utilizado o banco de dados `dbquiz2`, com uma tabela chamada
-`impressionismo`.
+Foi utilizado o banco de dados `dbquiz`, com uma tabela chamada
+`perguntas`.
 
 Essa tabela armazena as informações necessárias para cada pergunta,
 incluindo:
@@ -150,7 +150,7 @@ servidor, usuário, senha e nome do banco utilizado.
 ### 2. Busca e organização das perguntas
 
 Foi criado outro arquivo PHP, chamado `perguntas.php`, responsável por
-consultar a tabela `impressionismo`.
+consultar a tabela `perguntas`.
 
 A consulta seleciona até 10 perguntas aleatórias. Depois, o código
 organiza as alternativas e embaralha suas posições, atualizando também a
@@ -216,7 +216,7 @@ projeto.
 
 # Considerações Finais
 
-O desenvolvimento do aplicativo de Quiz sobre Impressionismo permitiu
+O desenvolvimento do aplicativo de Quiz sobre Movimentos Artisticos permitiu
 colocar em prática conhecimentos relacionados à criação de aplicativos,
 programação, banco de dados e comunicação entre sistemas.
 

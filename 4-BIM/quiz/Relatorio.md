@@ -109,3 +109,17 @@ Nascimento, com participação nas etapas de criação visual, organização
 do banco de dados e programação da comunicação entre o aplicativo e o
 servidor.
 
+------------------------------------------------------------------------
+
+### Gustavo Bastos da Silva
+
+Gustavo trabalhou na parte de integração entre o aplicativo, o PHP e o
+banco de dados SQL.
+
+Também desenvolveu e organizou os arquivos PHP responsáveis pela conexão
+com o banco de dados e pela consulta das perguntas. Outra parte
+importante foi a criação do código que transforma os dados consultados
+em JSON, permitindo que as perguntas sejam enviadas ao celular por meio
+do servidor local.
+
+------------------------------------------------------------------------

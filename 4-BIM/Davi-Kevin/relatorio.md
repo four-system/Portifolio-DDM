@@ -192,3 +192,31 @@ chave `correta` do dicionário atual:
 ![Blocos do Quiz](Imagens/blocoquiz6.png)
 ![Blocos do Quiz](Imagens/blocoquiz7.png)
 ![Blocos do Quiz](Imagens/blocoquiz8.png)
+
+### DECLARAÇÃO DE USO DE INTELIGÊNCIA ARTIFICIAL
+
+| Ferramenta | Etapa | Finalidade | Validação |
+| :--- | :--- | :--- | :--- |
+| Gemini | Ambiente e Banco de Dados | Apoio na migração do SQL Server para XAMPP (MySQL/MariaDB) e criação/organização das 50 questões sobre História Grega | Banco testado e validado no XAMPP/phpMyAdmin com retorno JSON do `sortear.php` |
+| ChatGPT | Back-end e Conectividade | Auxílio na verificação do retorno em JSON das perguntas sorteadas e na configuração da comunicação via IPv4 local | Conexão testada no navegador do celular e no aplicativo |
+| Gemini | Desenvolvimento (MIT App Inventor) | Orientação na lógica de blocos, leitura de dicionários JSON e destaque visual em verde da alternativa correta quando o usuário erra | Blocos montados, testados no dispositivo móvel e revisados pelo aluno |
+| ChatGPT | Documentação e Relatório | Apoio na estruturação e revisão da clareza do texto do relatório técnico | Texto lido, ajustado e revisado pelo aluno |
+
+------------------------------------------------------------------------
+
+## Tecnologias utilizadas
+
+-   **MIT App Inventor:** criação das interfaces e programação em blocos
+    do aplicativo Android;
+-   **PHP:** conexão com o banco de dados, sorteio das questões,
+    embaralhamento das alternativas e geração do JSON;
+-   **MySQL / MariaDB (XAMPP):** gerenciamento do banco de dados e
+    armazenamento das 50 perguntas e alternativas;
+-   **SQL:** linguagem utilizada para criar a estrutura da tabela,
+    inserir registros e realizar consultas aleatórias;
+-   **JSON:** formato leve de troca de dados utilizado entre o PHP e o
+    componente `Web1` do aplicativo;
+-   **Servidor local Apache (XAMPP):** execução do back-end PHP e
+    comunicação em rede local com o dispositivo móvel durante os testes.
+
+------------------------------------------------------------------------

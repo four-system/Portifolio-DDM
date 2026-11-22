@@ -202,7 +202,7 @@ chave `correta` do dicionário atual:
 | Gemini | Desenvolvimento (MIT App Inventor) | Orientação na lógica de blocos, leitura de dicionários JSON e destaque visual em verde da alternativa correta quando o usuário erra | Blocos montados, testados no dispositivo móvel e revisados pelo aluno |
 | ChatGPT | Documentação e Relatório | Apoio na estruturação e revisão da clareza do texto do relatório técnico | Texto lido, ajustado e revisado pelo aluno |
 
-A Inteligência Artificial foi utilizada como uma ferramenta de apoio,
+ - A Inteligência Artificial foi utilizada como uma ferramenta de apoio,
 contribuindo para agilizar algumas tarefas. Ela não substituiu o
 desenvolvimento e a participação dos alunos na montagem e integração do
 projeto.

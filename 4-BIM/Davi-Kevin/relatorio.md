@@ -179,3 +179,16 @@ chave `correta` do dicionário atual:
     `recomecar`, que restaura as variáveis e chama `Web1.Get` novamente.
 
 ------------------------------------------------------------------------
+
+## Design e Blocos do app:
+
+![Design do Quiz](Imagens/designquiz1.png)
+![Design do Quiz](Imagens/designquiz2.png)
+![Blocos do Quiz](Imagens/blocoquiz1.png)
+![Blocos do Quiz](Imagens/blocoquiz2.png)
+![Blocos do Quiz](Imagens/blocoquiz3.png)
+![Blocos do Quiz](Imagens/blocoquiz4.png)
+![Blocos do Quiz](Imagens/blocoquiz5.png)
+![Blocos do Quiz](Imagens/blocoquiz6.png)
+![Blocos do Quiz](Imagens/blocoquiz7.png)
+![Blocos do Quiz](Imagens/blocoquiz8.png)

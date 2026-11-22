@@ -202,6 +202,10 @@ chave `correta` do dicionário atual:
 | Gemini | Desenvolvimento (MIT App Inventor) | Orientação na lógica de blocos, leitura de dicionários JSON e destaque visual em verde da alternativa correta quando o usuário erra | Blocos montados, testados no dispositivo móvel e revisados pelo aluno |
 | ChatGPT | Documentação e Relatório | Apoio na estruturação e revisão da clareza do texto do relatório técnico | Texto lido, ajustado e revisado pelo aluno |
 
+A Inteligência Artificial foi utilizada como uma ferramenta de apoio,
+contribuindo para agilizar algumas tarefas. Ela não substituiu o
+desenvolvimento e a participação dos alunos na montagem e integração do
+projeto.
 ------------------------------------------------------------------------
 
 ## Tecnologias utilizadas
@@ -220,3 +224,28 @@ chave `correta` do dicionário atual:
     comunicação em rede local com o dispositivo móvel durante os testes.
 
 ------------------------------------------------------------------------
+
+# Considerações Finais
+
+O desenvolvimento do aplicativo de Quiz sobre História Grega permitiu
+aplicar na prática conceitos fundamentais de desenvolvimento mobile,
+bancos de dados relacionais e integração cliente-servidor.
+
+Durante o projeto, foi possível superar desafios reais de infraestrutura
+— como a escolha do servidor local mais adequado — e integrar o MIT App
+Inventor a um back-end em PHP e MySQL, utilizando JSON para trafegar as
+questões dinamicamente. Além disso, a implementação do retorno visual
+para acertos e erros e do mecanismo de reinício tornou a experiência do
+usuário mais clara e interativa.
+
+O apoio da Inteligência Artificial contribuiu para agilizar a criação
+do banco de questões, a depuração da comunicação via rede local e o
+entendimento completo da lógica de blocos, consolidando conhecimentos
+essenciais para o desenvolvimento de aplicativos conectados a fontes de
+dados externas.
+
+------------------------------------------------------------------------
+
+*Relatório desenvolvido para fins educacionais na disciplina de
+Desenvolvimento para Dispositivos Móveis (DDM), utilizando o MIT App
+Inventor, PHP e MySQL.*
